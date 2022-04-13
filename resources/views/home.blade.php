@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Josh Beals - Personal Portfolio Website</title>
+    <title>Josh Beals - Home</title>
     <!-- Include the site stylesheet -->
     <link href="https://fonts.googleapis.com/css?family=Dosis:800" rel="stylesheet">
     <!-- Include the site stylesheet -->
@@ -66,12 +66,40 @@
                     </div>
                 </div>
             </section>
+            <!-- About sec of the page -->
+            <section id="about" class="about-sec">
+                <div class="container">
+                    <div class="row">
+                        <!-- Personal information of the author -->
+                        <div class="col-xs-12 col-sm-7 info-detail">
+                            <h2 class="heading text-uppercase" data-heading="">some text about me</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy <br
+                                    class="hidden-xs hidden-sm">nibh euismod tincidunt ut laoreet dolore magna aliquam
+                                erat volutpat. Ut wisi <br class="hidden-xs hidden-sm">enim ad minim veniam, quis
+                                nostrud exerci tation ullamcorper suscipit lobortis <br class="hidden-xs hidden-sm">nisl
+                                ut aliquip ex ea commodo consequat.</p>
+                            <ul class="list-unstyled info-list text-capitalize">
+                                <li>Name: Martin James</li>
+                                <li>Birthday: 23rd Nov, 1981</li>
+                                <li>Country: UK, London</li>
+                                <li>Language: English, Spanish</li>
+                            </ul>
+                        </div>
+                        <!-- Author of the page -->
+                        <div class="col-xs-12 col-sm-4 col-md-offset-1">
+                            <div class="author-img">
+                                <img src="images/img07.jpg" class="img-responsive" alt="author image">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
             <!-- Work sec of the page -->
             <section id="works" class="work-sec">
                 <div class="container">
                     <div class="row">
                         <div class="col-xs-12">
-                            <h2 class="heading text-uppercase" data-heading="works">awesome works done by me</h2>
+                            <h2 class="heading text-uppercase" data-heading="">awesome works done by me</h2>
                         </div>
                         <div class="col-xs-12 col-sm-4">
                             <!-- Product of the page -->
@@ -123,34 +151,6 @@
                                     <a href="#" class="icon fas fa-plus"></a>
                                 </figcaption>
                             </figure>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- About sec of the page -->
-            <section id="about" class="about-sec">
-                <div class="container">
-                    <div class="row">
-                        <!-- Personal information of the author -->
-                        <div class="col-xs-12 col-sm-7 info-detail">
-                            <h2 class="heading text-uppercase" data-heading="about me">some text about me</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy <br
-                                    class="hidden-xs hidden-sm">nibh euismod tincidunt ut laoreet dolore magna aliquam
-                                erat volutpat. Ut wisi <br class="hidden-xs hidden-sm">enim ad minim veniam, quis
-                                nostrud exerci tation ullamcorper suscipit lobortis <br class="hidden-xs hidden-sm">nisl
-                                ut aliquip ex ea commodo consequat.</p>
-                            <ul class="list-unstyled info-list text-capitalize">
-                                <li>Name: Martin James</li>
-                                <li>Birthday: 23rd Nov, 1981</li>
-                                <li>Country: UK, London</li>
-                                <li>Language: English, Spanish</li>
-                            </ul>
-                        </div>
-                        <!-- Author of the page -->
-                        <div class="col-xs-12 col-sm-4 col-md-offset-1">
-                            <div class="author-img">
-                                <img src="images/img07.jpg" class="img-responsive" alt="author image">
-                            </div>
                         </div>
                     </div>
                 </div>
