@@ -42,8 +42,8 @@
             <nav id="nav" class="hidden-xs">
                 <ul class="list-unstyled text-uppercase">
                     <li><a href="#Welcome">Welcome</a></li>
-                    <li><a href="#works">works</a></li>
                     <li><a href="#about">about</a></li>
+                    <li><a href="#works">works</a></li>
                     <li><a href="#skills">skills</a></li>
                     <li><a href="#contact">contact</a></li>
                 </ul>
