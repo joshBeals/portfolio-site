@@ -1,1729 +1,373 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]><html class="ie ie6" lang="en"> <![endif]-->
-<!--[if IE 7]><html class="ie ie7" lang="en"> <![endif]-->
-<!--[if IE 8]><html class="ie ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!-->
-<html lang="en">
-    <!--<![endif]-->
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-        <meta name="description" content="Josh Beals Portfolio Site" />
-        <meta name="author" content="Marketify" />
-        <meta
-            name="viewport"
-            content="width=device-width, initial-scale=1, maximum-scale=1"
-        />
-        <title>Josh Beals</title>
+<html lang="en-us">
 
-        <link
-            href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-            rel="stylesheet"
-        />
-        <link rel="stylesheet" type="text/css" href="{{ asset('css/plugins.css') }}" />
-        <link rel="stylesheet" type="text/css" href="{{ asset('css/colors.css') }}" />
-        <link rel="stylesheet" type="text/css" href="{{ asset('css/style.css') }}" />
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Josh Beals - Personal Portfolio Website</title>
+    <!-- Include the site stylesheet -->
+    <link href="https://fonts.googleapis.com/css?family=Dosis:800" rel="stylesheet">
+    <!-- Include the site stylesheet -->
+    <link rel="stylesheet" type="text/css" href="css/fontawesome.css">
+    <!-- Include the site stylesheet -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <!-- Include the site stylesheet -->
+    <link rel="stylesheet" type="text/css" href="css/plugins.css">
+    <!-- Include the site stylesheet -->
+    <link rel="stylesheet" type="text/css" href="css/icofont.css">
+    <!-- Include the site stylesheet -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- include the site stylesheet -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Include the site stylesheet -->
+    <link rel="stylesheet" type="text/css" href="css/color.css">
+    <!-- Include the site stylesheet -->
+    <style class="color_css"></style>
+</head>
 
-        <!--[if lt IE 9]>
-            <script
-                type="text/javascript"
-                src="js/modernizr.custom.js"
-            ></script>
-        <![endif]-->
-    </head>
-    <body>
-        <div id="preloader">
-            <div class="loader_line"></div>
-        </div>
-
-        <div
-            class="ryker_tm_all_wrap"
-            data-magic-cursor="show"
-            data-color="brown"
-        >
-            <div class="ryker_tm_settings">
-                <div class="icon">
-                    <img class="svg" src="img/svg/setting.svg" alt="" />
-                    <a class="link" href="#"></a>
-                </div>
-                <div class="wrapper">
-                    <span class="title">Unlimited Colors</span>
-                    <ul class="colors">
-                        <li><a class="blue" href="#"></a></li>
-                        <li><a class="green" href="#"></a></li>
-                        <li><a class="brown" href="#"></a></li>
-                        <li><a class="pink" href="#"></a></li>
-                        <li><a class="orange" href="#"></a></li>
-                        <li class="bl"><a class="black" href="#"></a></li>
-                        <li class="wh"><a class="white" href="#"></a></li>
-                        <li><a class="purple" href="#"></a></li>
-                        <li><a class="sky" href="#"></a></li>
-                        <li><a class="cadetBlue" href="#"></a></li>
-                        <li><a class="crimson" href="#"></a></li>
-                        <li><a class="olive" href="#"></a></li>
-                        <li><a class="red" href="#"></a></li>
-                    </ul>
-                    <span class="title">Magic Cursor</span>
-                    <ul class="cursor">
-                        <li><a class="showme show" href="#"></a></li>
-                        <li>
-                            <a class="hide" href="#"
-                                ><img
-                                    class="svg"
-                                    src="img/svg/arrow.svg"
-                                    alt=""
-                            /></a>
-                        </li>
-                    </ul>
+<body>
+    <!-- Main container of the page -->
+    <div id="wrapper">
+        <!-- Header of the page -->
+        <header id="header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <!-- logo of the page -->
+                        <div class="logo text-uppercase"><a href="#">Josh Beals</a></div>
+                    </div>
                 </div>
             </div>
-
-            <div class="ryker_tm_modalbox">
-                <div class="box_inner">
-                    <div class="close">
-                        <a href="#"
-                            ><img class="svg" src="img/svg/cancel.svg" alt=""
-                        /></a>
+            <!-- Nav of the page -->
+            <nav id="nav" class="hidden-xs">
+                <ul class="list-unstyled text-uppercase">
+                    <li><a href="#Welcome">Welcome</a></li>
+                    <li><a href="#works">works</a></li>
+                    <li><a href="#about">about</a></li>
+                    <li><a href="#skills">skills</a></li>
+                    <li><a href="#contact">contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <!-- Main of the page -->
+        <main id="main">
+            <!-- Banner sec of the page -->
+            <section id="Welcome" class="banner-sec">
+                <div class="container">
+                    <div class="row">
+                        <!-- content of the banner -->
+                        <div class="col-12 pb-5 caption">
+                            <h1 class="text-uppercase" data-heading="Josh Beals">FullStack <span class="orange">
+                                    Engineer</span>
+                            </h1>
+                            <p class="text-uppercase">Joshua <span class="orange"
+                                    style="padding-left: 5px;">Alele-Beals</span></pp>
+                        </div>
                     </div>
-                    <div class="description_wrap"></div>
                 </div>
-            </div>
-
-            <div class="ryker_tm_topbar">
-                <div class="topbar_inner">
-                    <div class="logo">
-                        <a href="#"><img src="img/logo/dark.png" alt="" /></a>
+            </section>
+            <!-- Work sec of the page -->
+            <section id="works" class="work-sec">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <h2 class="heading text-uppercase" data-heading="works">awesome works done by me</h2>
+                        </div>
+                        <div class="col-xs-12 col-sm-4">
+                            <!-- Product of the page -->
+                            <figure class="product-img overlay">
+                                <img src="images/img02.jpg" class="img-responsive" alt="bottle image">
+                                <figcaption class="txt-holder text-capitalize">
+                                    <h3><a href="#">Home Made Shot - 03</a></h3>
+                                    <p>Product Photography</p>
+                                    <a href="#" class="icon fas fa-plus"></a>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="col-xs-12 col-sm-3">
+                            <!-- Product of the page -->
+                            <figure class="product-img overlay mar">
+                                <img src="images/img03.jpg" class="img-responsive" alt="cycle image">
+                                <figcaption class="txt-holder small-col text-capitalize">
+                                    <h3><a href="#">Home Made Shot - 03</a></h3>
+                                    <p>Product Photography</p>
+                                    <a href="#" class="icon fas fa-plus"></a>
+                                </figcaption>
+                            </figure>
+                            <!-- Product of the page -->
+                            <figure class="product-img overlay">
+                                <img src="images/img05.jpg" class="img-responsive" alt="cycle image">
+                                <figcaption class="txt-holder small-col text-capitalize">
+                                    <h3><a href="#">Home Made Shot - 03</a></h3>
+                                    <p>Product Photography</p>
+                                    <a href="#" class="icon fas fa-plus"></a>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="col-xs-12 col-sm-5">
+                            <!-- Product of the page -->
+                            <figure class="product-img overlay">
+                                <img src="images/img04.jpg" class="img-responsive" alt="cycle image">
+                                <figcaption class="txt-holder text-capitalize">
+                                    <h3><a href="#">Home Made Shot - 03</a></h3>
+                                    <p>Product Photography</p>
+                                    <a href="#" class="icon fas fa-plus"></a>
+                                </figcaption>
+                            </figure>
+                            <!-- Product of the page -->
+                            <figure class="product-img overlay">
+                                <img src="images/img06.jpg" class="img-responsive" alt="cycle image">
+                                <figcaption class="txt-holder text-capitalize">
+                                    <h3><a href="#">Home Made Shot - 03</a></h3>
+                                    <p>Product Photography</p>
+                                    <a href="#" class="icon fas fa-plus"></a>
+                                </figcaption>
+                            </figure>
+                        </div>
                     </div>
-                    <div class="menu">
-                        <div class="list">
-                            <ul class="anchor_nav">
-                                <li class="current">
-                                    <a href="#home">Home</a>
-                                </li>
-                                <li><a href="#about">About</a></li>
-                                <li><a href="#service">Services</a></li>
-                                <li><a href="#portfolio">Portfolio</a></li>
-                                <li><a href="#news">News</a></li>
-                                <li><a href="#contact">Contact</a></li>
+                </div>
+            </section>
+            <!-- About sec of the page -->
+            <section id="about" class="about-sec">
+                <div class="container">
+                    <div class="row">
+                        <!-- Personal information of the author -->
+                        <div class="col-xs-12 col-sm-7 info-detail">
+                            <h2 class="heading text-uppercase" data-heading="about me">some text about me</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy <br
+                                    class="hidden-xs hidden-sm">nibh euismod tincidunt ut laoreet dolore magna aliquam
+                                erat volutpat. Ut wisi <br class="hidden-xs hidden-sm">enim ad minim veniam, quis
+                                nostrud exerci tation ullamcorper suscipit lobortis <br class="hidden-xs hidden-sm">nisl
+                                ut aliquip ex ea commodo consequat.</p>
+                            <ul class="list-unstyled info-list text-capitalize">
+                                <li>Name: Martin James</li>
+                                <li>Birthday: 23rd Nov, 1981</li>
+                                <li>Country: UK, London</li>
+                                <li>Language: English, Spanish</li>
                             </ul>
                         </div>
-                        <div class="trigger">
-                            <div class="hamburger hamburger--slider">
-                                <div class="hamburger-box">
-                                    <div class="hamburger-inner"></div>
-                                </div>
+                        <!-- Author of the page -->
+                        <div class="col-xs-12 col-sm-4 col-md-offset-1">
+                            <div class="author-img">
+                                <img src="images/img07.jpg" class="img-responsive" alt="author image">
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-
-            <div class="ryker_tm_mobile_menu">
-                <div class="mobile_menu_inner">
-                    <div class="mobile_in">
-                        <div class="logo">
-                            <a href="#"
-                                ><img src="img/logo/dark.png" alt=""
-                            /></a>
+            </section>
+            <!-- Skills sec of the page -->
+            <section id="skills" class="skill-sec">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <h2 class="heading text-uppercase" data-heading="skills">skill that makes me strong</h2>
                         </div>
-                        <div class="trigger">
-                            <div class="hamburger hamburger--slider">
-                                <div class="hamburger-box">
-                                    <div class="hamburger-inner"></div>
-                                </div>
+                        <!-- Progress of the adobe photoshop -->
+                        <div class="col-xs-6 col-sm-4 col-md-2 text-center">
+                            <div class="box">
+                                <div class="chart" data-percent="90">90%</div>
+                                <strong class="skill text-capitalize">Adobe Photoshop</strong>
+                            </div>
+                        </div>
+                        <!-- Progress of the adobe illustrator -->
+                        <div class="col-xs-6 col-sm-4 col-md-2 text-center">
+                            <div class="box">
+                                <div class="chart" data-percent="80">80%</div>
+                                <strong class="skill text-capitalize">Adobe Illustrator</strong>
+                            </div>
+                        </div>
+                        <!-- Progress of the lighting -->
+                        <div class="col-xs-6 col-sm-4 col-md-2 text-center">
+                            <div class="box">
+                                <div class="chart" data-percent="94">94%</div>
+                                <strong class="skill text-capitalize">Lighting</strong>
+                            </div>
+                        </div>
+                        <!-- Progress of the abode lightroom -->
+                        <div class="col-xs-6 col-sm-4 col-md-2 text-center">
+                            <div class="box">
+                                <div class="chart" data-percent="90">90%</div>
+                                <strong class="skill text-capitalize">Adobe Lightroom</strong>
+                            </div>
+                        </div>
+                        <!-- Progress of the product shops -->
+                        <div class="col-xs-6 col-sm-4 col-md-2 text-center">
+                            <div class="box">
+                                <div class="chart" data-percent="85">85%</div>
+                                <strong class="skill text-capitalize">Product Shots</strong>
+                            </div>
+                        </div>
+                        <!-- Progress of the weeding shots -->
+                        <div class="col-xs-6 col-sm-4 col-md-2 text-center">
+                            <div class="box">
+                                <div class="chart" data-percent="92">92%</div>
+                                <strong class="skill text-capitalize">Weeding Shots</strong>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="dropdown">
-                    <div class="dropdown_inner">
-                        <ul class="anchor_nav">
-                            <li class="active"><a href="#home">Home</a></li>
-                            <li><a href="#about">About</a></li>
-                            <li><a href="#service">Services</a></li>
-                            <li><a href="#portfolio">Portfolio</a></li>
-                            <li><a href="#news">News</a></li>
-                            <li><a href="#contact">Contact</a></li>
+            </section>
+            <!-- Testimonial of the page -->
+            <section class="testimonial-sec bg-full overlay" style="background-image:url(images/img11.jpg);">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <h2 class="heading text-uppercase" data-heading="speech">What clients say about me</h2>
+                            <div class="testimonial-holder">
+                                <!-- Slide of the client feedback -->
+                                <div class="client-feedback">
+                                    <blockquote class="slide">
+                                        <i class="icon fas fa-quote-left"></i>
+                                        <q>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie
+                                            consequat, vel illum <br class="hidden-xs hidden-sm">dolore eu feugiat nulla
+                                            facilisis at vero eros et accumsan et iusto odio dignissim qui blandit
+                                            praesent <br class="hidden-xs hidden-sm">luptatum zzril delenit augue duis
+                                            dolore te feugait nulla facilisi.</q>
+                                        <cite class="author text-capitalize">admin</cite>
+                                        <span class="desination text-capitalize">Project Manager, Sitename</span>
+                                    </blockquote>
+                                    <blockquote class="slide">
+                                        <i class="icon fas fa-quote-left"></i>
+                                        <q>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie
+                                            consequat, vel illum <br class="hidden-xs hidden-sm">dolore eu feugiat nulla
+                                            facilisis at vero eros et accumsan et iusto odio dignissim qui blandit
+                                            praesent <br class="hidden-xs hidden-sm">luptatum zzril delenit augue duis
+                                            dolore te feugait nulla facilisi.</q>
+                                        <cite class="author text-capitalize">John Doe</cite>
+                                        <span class="desination text-capitalize">Project Manager, Sitename</span>
+                                    </blockquote>
+                                    <blockquote class="slide">
+                                        <i class="icon fas fa-quote-left"></i>
+                                        <q>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie
+                                            consequat, vel illum <br class="hidden-xs hidden-sm">dolore eu feugiat nulla
+                                            facilisis at vero eros et accumsan et iusto odio dignissim qui blandit
+                                            praesent <br class="hidden-xs hidden-sm">luptatum zzril delenit augue duis
+                                            dolore te feugait nulla facilisi.</q>
+                                        <cite class="author text-capitalize">Johnson</cite>
+                                        <span class="desination text-capitalize">Project Manager, Sitename</span>
+                                    </blockquote>
+                                    <blockquote class="slide">
+                                        <i class="icon fas fa-quote-left"></i>
+                                        <q>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie
+                                            consequat, vel illum <br class="hidden-xs hidden-sm">dolore eu feugiat nulla
+                                            facilisis at vero eros et accumsan et iusto odio dignissim qui blandit
+                                            praesent <br class="hidden-xs hidden-sm">luptatum zzril delenit augue duis
+                                            dolore te feugait nulla facilisi.</q>
+                                        <cite class="author text-capitalize">John</cite>
+                                        <span class="desination text-capitalize">Project Manager, Sitename</span>
+                                    </blockquote>
+                                </div>
+                                <!-- Client image of the client feedback -->
+                                <ul class="list-unstyled slick-slider client-slider">
+                                    <li><img src="images/img14.jpg" alt="image description" class="img-responsive"></li>
+                                    <li><img src="images/img15.jpg" alt="image description" class="img-responsive"></li>
+                                    <li><img src="images/img16.jpg" alt="image description" class="img-responsive"></li>
+                                    <li><img src="images/img17.jpg" alt="image description" class="img-responsive"></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Contact-sec of the page -->
+            <section class="contact-sec" id="contact">
+                <div class="img-holder hidden-xs hidden-sm">
+                    <img src="images/img12.png" alt="img description" class="img-responsive">
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12 col-md-8 col-md-offset-3">
+                            <div class="contact-holder">
+                                <h3 data-heading="hire me" class="heading text-uppercase">Get in touch with me now!</h3>
+                                <!-- Contact list of the page -->
+                                <ul class="list-unstyled contact-list">
+                                    <li>
+                                        <span class="icon-holder pull-left"><i class="icofont-envelope"></i></span>
+                                        <div class="wrap">
+                                            <strong class="title text-uppercase">email</strong>
+                                            <a
+                                                href="mailto:&#109;&#097;&#114;&#116;&#105;&#110;&#046;&#106;&#111;&#110;&#101;&#115;&#064;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;">&#109;&#097;&#114;&#116;&#105;&#110;&#046;&#106;&#111;&#110;&#101;&#115;&#064;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;</a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <span class="icon-holder pull-left"><i class="icofont-skype"></i></span>
+                                        <div class="wrap">
+                                            <strong class="title text-uppercase">skype</strong>
+                                            <a href="#">martin.jones</a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <span class="icon-holder pull-left"><i class="icofont-phone"></i></span>
+                                        <div class="wrap">
+                                            <strong class="title text-uppercase">phone</strong>
+                                            <a href="tel:02123414210">+021-2341-4210</a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-md-5 col-md-offset-6">
+                            <!-- contact form of the page -->
+                            <div class="contact-form">
+                                <form id="contactForm" data-toggle="validator">
+                                    <fieldset>
+                                        <div class="form-group">
+                                            <label for="text">Your name:</label>
+                                            <input class="form-control" id="txtname" name="name" type="text"
+                                                placeholder="Enter your name here" required
+                                                data-error="NEW ERROR MESSAGE">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="email">Email address:</label>
+                                            <input class="form-control" id="txtemail" name="email" type="email"
+                                                placeholder="Enter your email address" required
+                                                data-error="NEW ERROR MESSAGE">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="message">Message:</label>
+                                            <textarea class="form-control" id="txtmessage" name="message"
+                                                placeholder="Write your message here" required
+                                                data-error="NEW ERROR MESSAGE"></textarea>
+                                        </div>
+                                        <div id="msgSubmit" class="form-message hidden"></div>
+                                        <button type="submit" class="btn-primary text-capitalize" id="form-submit">send
+                                            message</button>
+                                    </fieldset>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <!-- Footer of the page -->
+        <footer id="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6">
+                        <span class="text">© 2019 Copyright 2019, Exo. All Rights Reserved</span>
+                    </div>
+                    <div class="col-xs-12 col-sm-6">
+                        <!-- social icons of the page -->
+                        <ul class="list-unstyled social-icons">
+                            <li><a href="#" class="fab fa-facebook-f"></a></li>
+                            <li><a href="#" class="fab fa-twitter"></a></li>
+                            <li><a href="#" class="fab fa-google-plus-g"></a></li>
+                            <li><a href="#" class="fab fa-linkedin-in"></a></li>
+                            <li><a href="#" class="fab fa-pinterest-p"></a></li>
                         </ul>
                     </div>
                 </div>
             </div>
+        </footer>
+    </div>
+    <!-- Include jQuery -->
+    <script src="js/jquery.js"></script>
+    <!-- Include jQuery -->
+    <script src="js/plugins.js"></script>
+    <!-- Include jQuery -->
+    <script src="js/jquery.main.js"></script>
+    <div id="style-changer" data-src="inc/style-changer.html"></div>
+</body>
 
-            <div class="ryker_tm_section" id="home">
-                <div class="ryker_tm_hero">
-                    <div class="container">
-                        <div class="content">
-                            <div class="texts">
-                                <div class="job">
-                                    <video playsinline autoplay muted loop>
-                                        <source
-                                            src="video/1.mp4"
-                                            type="video/mp4"
-                                        />
-                                    </video>
-                                    <h3>
-                                        Senior Designer<br />
-                                        &amp; Developer
-                                    </h3>
-                                </div>
-                                <div class="desc">
-                                    <p>
-                                        Hi, I'm Alan Walker. A passionate Senior
-                                        Designer and Front-End Developer based
-                                        In NYC, USA
-                                    </p>
-                                </div>
-                                <div class="short_skills">
-                                    <div class="text">
-                                        <span
-                                            >High knowledge on<br />softwares</span
-                                        >
-                                    </div>
-                                    <div class="icons">
-                                        <ul>
-                                            <li>
-                                                <img
-                                                    class="svg"
-                                                    src="img/svg/html.svg"
-                                                    alt=""
-                                                />
-                                            </li>
-                                            <li>
-                                                <img
-                                                    class="svg"
-                                                    src="img/svg/css.svg"
-                                                    alt=""
-                                                />
-                                            </li>
-                                            <li>
-                                                <img
-                                                    class="svg"
-                                                    src="img/svg/angular.svg"
-                                                    alt=""
-                                                />
-                                            </li>
-                                            <li>
-                                                <img
-                                                    class="svg"
-                                                    src="img/svg/bootstrap.svg"
-                                                    alt=""
-                                                />
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="avatar">
-                                <div
-                                    class="image"
-                                    data-img-url="img/about/4.jpg"
-                                ></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="ryker_tm_section" id="about">
-                <div class="ryker_tm_about">
-                    <div class="container">
-                        <div class="about_inner">
-                            <div
-                                class="left wow fadeInLeft"
-                                data-wow-duration="1.5s"
-                            >
-                                <div class="image">
-                                    <img src="img/thumbs/1-1.jpg" alt="" />
-                                    <div
-                                        class="main"
-                                        data-img-url="img/about/2.jpg"
-                                    ></div>
-                                    <div class="experience">
-                                        <h3
-                                            class="year"
-                                            data-img-url="img/about/2.jpg"
-                                        >
-                                            7
-                                        </h3>
-                                        <div id="circle">
-                                            <svg
-                                                version="1.1"
-                                                xmlns="http://www.w3.org/2000/svg"
-                                                xmlns:xlink="http://www.w3.org/1999/xlink"
-                                                x="0px"
-                                                y="0px"
-                                                width="300px"
-                                                height="300px"
-                                                viewBox="0 0 300 300"
-                                                enable-background="new 0 0 300 300"
-                                                xml:space="preserve"
-                                            >
-                                                <defs>
-                                                    <path
-                                                        id="circlePath"
-                                                        d=" M 150, 150 m -60, 0 a 60,60 0 0,1 120,0 a 60,60 0 0,1 -120,0 "
-                                                    />
-                                                </defs>
-                                                <circle
-                                                    cx="150"
-                                                    cy="100"
-                                                    r="75"
-                                                    fill="none"
-                                                />
-                                                <g>
-                                                    <use
-                                                        xlink:href="#circlePath"
-                                                        fill="none"
-                                                    />
-                                                    <text fill="#000">
-                                                        <textpath
-                                                            xlink:href="#circlePath"
-                                                        >
-                                                            Years of best and
-                                                            successful work
-                                                            experience
-                                                        </textpath>
-                                                    </text>
-                                                </g>
-                                            </svg>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div
-                                class="right wow fadeInRight"
-                                data-wow-duration="1.5s"
-                            >
-                                <div class="ryker_tm_title">
-                                    <span>About Me</span>
-                                    <h3>
-                                        A passionate Senior Designer and
-                                        Front-End Developer based In NYC, USA
-                                    </h3>
-                                </div>
-                                <div class="text">
-                                    <p>
-                                        I am passionate Senior Designer, and I'm
-                                        very passionate and dedicated to my
-                                        work. With 7 years experience as a
-                                        professional Web developer, I have
-                                        acquired the skills and knowledge
-                                        necessary to make your project a
-                                        success.
-                                    </p>
-                                </div>
-                                <div class="signature">
-                                    <img src="img/signature.png" alt="" />
-                                </div>
-                                <div class="ryker_tm_button">
-                                    <a href="#">Download CV</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="ryker_tm_section" id="service">
-                <div class="ryker_tm_services">
-                    <div class="container">
-                        <div class="services_inner">
-                            <div class="left">
-                                <div class="ryker_tm_title">
-                                    <span>Services</span>
-                                    <h3>
-                                        I offer a Full-cycle of Web Development
-                                        Services
-                                    </h3>
-                                </div>
-                                <div class="text">
-                                    <p>
-                                        For more than 20 years our experts have
-                                        been accomplishing enough with modern
-                                        Web Development, new generation
-                                        programming language, and Full Stack
-                                        developers to deliver cost-effective
-                                        solutions.
-                                    </p>
-                                </div>
-                                <div class="ryker_progress">
-                                    <div class="progress_inner" data-value="95">
-                                        <span
-                                            ><span class="label"
-                                                >HTML &amp; CSS</span
-                                            ><span class="number"
-                                                >95%</span
-                                            ></span
-                                        >
-                                        <div class="background">
-                                            <div class="bar">
-                                                <div class="bar_in"></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="progress_inner" data-value="80">
-                                        <span
-                                            ><span class="label"
-                                                >JavaScript</span
-                                            ><span class="number"
-                                                >80%</span
-                                            ></span
-                                        >
-                                        <div class="background">
-                                            <div class="bar">
-                                                <div class="bar_in"></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="progress_inner" data-value="90">
-                                        <span
-                                            ><span class="label">WordPress</span
-                                            ><span class="number"
-                                                >90%</span
-                                            ></span
-                                        >
-                                        <div class="background">
-                                            <div class="bar">
-                                                <div class="bar_in"></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="right">
-                                <ul class="grid">
-                                    <li
-                                        class="grid-item wow fadeInUp"
-                                        data-wow-duration="1.5s"
-                                    >
-                                        <div class="list_inner">
-                                            <img
-                                                class="svg"
-                                                src="img/svg/design.svg"
-                                                alt=""
-                                            />
-                                            <h3 class="title">Design</h3>
-                                        </div>
-                                    </li>
-                                    <li
-                                        class="grid-item wow fadeInUp"
-                                        data-wow-duration="1.5s"
-                                        data-wow-delay="0.2s"
-                                    >
-                                        <div class="list_inner">
-                                            <img
-                                                class="svg"
-                                                src="img/svg/code.svg"
-                                                alt=""
-                                            />
-                                            <h3 class="title">Development</h3>
-                                        </div>
-                                    </li>
-                                    <li
-                                        class="grid-item wow fadeInUp"
-                                        data-wow-duration="1.5s"
-                                        data-wow-delay="0.2s"
-                                    >
-                                        <div class="list_inner">
-                                            <img
-                                                class="svg"
-                                                src="img/svg/award.svg"
-                                                alt=""
-                                            />
-                                            <h3 class="title">Quality</h3>
-                                        </div>
-                                    </li>
-                                    <li
-                                        class="grid-item wow fadeInUp"
-                                        data-wow-duration="1.5s"
-                                    >
-                                        <div class="list_inner">
-                                            <img
-                                                class="svg"
-                                                src="img/svg/tools.svg"
-                                                alt=""
-                                            />
-                                            <h3 class="title">Maintain</h3>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="ryker_tm_section" id="portfolio">
-                <div class="ryker_tm_portfolio">
-                    <div class="container">
-                        <div class="portfolio_inner">
-                            <div class="ryker_tm_title">
-                                <span>Portfolio</span>
-                                <h3>
-                                    Each project is a unique piece of
-                                    development
-                                </h3>
-                            </div>
-                            <div class="portfolio_list">
-                                <ul class="gallery_zoom">
-                                    <li
-                                        class="wow fadeInUp"
-                                        data-wow-duration="1.5s"
-                                    >
-                                        <div class="list_inner">
-                                            <div class="image">
-                                                <img
-                                                    src="img/thumbs/1-1.jpg"
-                                                    alt=""
-                                                />
-                                                <div
-                                                    class="main"
-                                                    data-img-url="img/portfolio/1.jpg"
-                                                ></div>
-                                            </div>
-                                            <div class="overlay"></div>
-                                            <div class="details">
-                                                <h3>Water Drops</h3>
-                                                <span>Vimeo</span>
-                                            </div>
-                                            <a
-                                                class="ryker_tm_full_link popup-vimeo"
-                                                href="https://vimeo.com/312334044"
-                                            ></a>
-                                        </div>
-                                    </li>
-                                    <li
-                                        class="wow fadeInUp"
-                                        data-wow-duration="1.5s"
-                                        data-wow-delay="0.2s"
-                                    >
-                                        <div class="list_inner">
-                                            <div class="image">
-                                                <img
-                                                    src="img/thumbs/1-1.jpg"
-                                                    alt=""
-                                                />
-                                                <div
-                                                    class="main"
-                                                    data-img-url="img/portfolio/2.jpg"
-                                                ></div>
-                                            </div>
-                                            <div class="overlay"></div>
-                                            <div class="details">
-                                                <h3>Sweet Cherry</h3>
-                                                <span>Youtube</span>
-                                            </div>
-                                            <a
-                                                class="ryker_tm_full_link popup-youtube"
-                                                href="https://www.youtube.com/watch?v=Amq-qlqbjYA"
-                                            ></a>
-                                        </div>
-                                    </li>
-                                    <li
-                                        class="wow fadeInUp"
-                                        data-wow-duration="1.5s"
-                                        data-wow-delay="0.4s"
-                                    >
-                                        <div class="list_inner">
-                                            <div class="image">
-                                                <img
-                                                    src="img/thumbs/1-1.jpg"
-                                                    alt=""
-                                                />
-                                                <div
-                                                    class="main"
-                                                    data-img-url="img/portfolio/3.jpg"
-                                                ></div>
-                                            </div>
-                                            <div class="overlay"></div>
-                                            <div class="details">
-                                                <h3>Red Nike</h3>
-                                                <span>Soundcloud</span>
-                                            </div>
-                                            <a
-                                                class="ryker_tm_full_link soundcloude_link mfp-iframe audio"
-                                                href="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/252739311&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
-                                            ></a>
-                                        </div>
-                                    </li>
-                                    <li
-                                        class="wow fadeInUp"
-                                        data-wow-duration="1.5s"
-                                    >
-                                        <div class="list_inner">
-                                            <div class="image">
-                                                <img
-                                                    src="img/thumbs/1-1.jpg"
-                                                    alt=""
-                                                />
-                                                <div
-                                                    class="main"
-                                                    data-img-url="img/portfolio/6.jpg"
-                                                ></div>
-                                            </div>
-                                            <div class="overlay"></div>
-                                            <div class="details">
-                                                <h3>Blue Lemon</h3>
-                                                <span>Detail</span>
-                                            </div>
-                                            <a
-                                                class="ryker_tm_full_link popup_info"
-                                                href="#"
-                                            ></a>
-                                        </div>
-
-                                        <div class="portfolio_hidden_infos">
-                                            <div class="popup_details">
-                                                <div class="top_image"></div>
-                                                <div
-                                                    class="portfolio_main_title"
-                                                ></div>
-                                                <div class="main_details">
-                                                    <div class="textbox">
-                                                        <p>
-                                                            The origin of the
-                                                            lemon is unknown,
-                                                            though lemons are
-                                                            thought to have
-                                                            first grown in Assam
-                                                            (a region in
-                                                            northeast India),
-                                                            northern Burma or
-                                                            China. A genomic
-                                                            study of the lemon
-                                                            indicated it was a
-                                                            hybrid between
-                                                            bitter orange and
-                                                            citron.
-                                                        </p>
-                                                        <p>
-                                                            The first
-                                                            substantial
-                                                            cultivation of
-                                                            lemons in Europe
-                                                            began in Genoa in
-                                                            the middle of the
-                                                            15th century. The
-                                                            lemon was later
-                                                            introduced to the
-                                                            Americas in 1493
-                                                            when Christopher
-                                                            Columbus brought
-                                                            lemon seeds to
-                                                            Hispaniola on his
-                                                            voyages. Spanish
-                                                            conquest throughout
-                                                            the New World helped
-                                                            spread lemon seeds.
-                                                        </p>
-                                                    </div>
-                                                    <div class="detailbox">
-                                                        <ul>
-                                                            <li>
-                                                                <span
-                                                                    class="first"
-                                                                    >Client</span
-                                                                >
-                                                                <span
-                                                                    >Alvaro
-                                                                    Morata</span
-                                                                >
-                                                            </li>
-                                                            <li>
-                                                                <span
-                                                                    class="first"
-                                                                    >Category</span
-                                                                >
-                                                                <span
-                                                                    ><a href="#"
-                                                                        >Detail</a
-                                                                    ></span
-                                                                >
-                                                            </li>
-                                                            <li>
-                                                                <span
-                                                                    class="first"
-                                                                    >Date</span
-                                                                >
-                                                                <span
-                                                                    >March 07,
-                                                                    2021</span
-                                                                >
-                                                            </li>
-                                                            <li>
-                                                                <span
-                                                                    class="first"
-                                                                    >Share</span
-                                                                >
-                                                                <ul
-                                                                    class="share"
-                                                                >
-                                                                    <li>
-                                                                        <a
-                                                                            href="#"
-                                                                            ><img
-                                                                                class="svg"
-                                                                                src="img/svg/social/facebook.svg"
-                                                                                alt=""
-                                                                        /></a>
-                                                                    </li>
-                                                                    <li>
-                                                                        <a
-                                                                            href="#"
-                                                                            ><img
-                                                                                class="svg"
-                                                                                src="img/svg/social/twitter.svg"
-                                                                                alt=""
-                                                                        /></a>
-                                                                    </li>
-                                                                    <li>
-                                                                        <a
-                                                                            href="#"
-                                                                            ><img
-                                                                                class="svg"
-                                                                                src="img/svg/social/instagram.svg"
-                                                                                alt=""
-                                                                        /></a>
-                                                                    </li>
-                                                                    <li>
-                                                                        <a
-                                                                            href="#"
-                                                                            ><img
-                                                                                class="svg"
-                                                                                src="img/svg/social/dribbble.svg"
-                                                                                alt=""
-                                                                        /></a>
-                                                                    </li>
-                                                                    <li>
-                                                                        <a
-                                                                            href="#"
-                                                                            ><img
-                                                                                class="svg"
-                                                                                src="img/svg/social/tik-tok.svg"
-                                                                                alt=""
-                                                                        /></a>
-                                                                    </li>
-                                                                </ul>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                                <div class="additional_images">
-                                                    <ul>
-                                                        <li>
-                                                            <div
-                                                                class="list_inner"
-                                                            >
-                                                                <div
-                                                                    class="my_image"
-                                                                >
-                                                                    <img
-                                                                        src="img/thumbs/4-2.jpg"
-                                                                        alt=""
-                                                                    />
-                                                                    <div
-                                                                        class="main"
-                                                                        data-img-url="img/portfolio/7.jpg"
-                                                                    ></div>
-                                                                </div>
-                                                            </div>
-                                                        </li>
-                                                        <li>
-                                                            <div
-                                                                class="list_inner"
-                                                            >
-                                                                <div
-                                                                    class="my_image"
-                                                                >
-                                                                    <img
-                                                                        src="img/thumbs/4-2.jpg"
-                                                                        alt=""
-                                                                    />
-                                                                    <div
-                                                                        class="main"
-                                                                        data-img-url="img/portfolio/8.jpg"
-                                                                    ></div>
-                                                                </div>
-                                                            </div>
-                                                        </li>
-                                                        <li>
-                                                            <div
-                                                                class="list_inner"
-                                                            >
-                                                                <div
-                                                                    class="my_image"
-                                                                >
-                                                                    <img
-                                                                        src="img/thumbs/4-2.jpg"
-                                                                        alt=""
-                                                                    />
-                                                                    <div
-                                                                        class="main"
-                                                                        data-img-url="img/portfolio/9.jpg"
-                                                                    ></div>
-                                                                </div>
-                                                            </div>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li
-                                        class="wow fadeInUp"
-                                        data-wow-duration="1.5s"
-                                        data-wow-delay="0.2s"
-                                    >
-                                        <div class="list_inner">
-                                            <div class="image">
-                                                <img
-                                                    src="img/thumbs/1-1.jpg"
-                                                    alt=""
-                                                />
-                                                <div
-                                                    class="main"
-                                                    data-img-url="img/portfolio/5.jpg"
-                                                ></div>
-                                            </div>
-                                            <div class="overlay"></div>
-                                            <div class="details">
-                                                <h3>Pantone</h3>
-                                                <span>Image</span>
-                                            </div>
-                                            <a
-                                                class="ryker_tm_full_link zoom"
-                                                href="img/portfolio/5.jpg"
-                                            ></a>
-                                        </div>
-                                    </li>
-                                    <li
-                                        class="wow fadeInUp"
-                                        data-wow-duration="1.5s"
-                                        data-wow-delay="0.4s"
-                                    >
-                                        <div class="list_inner">
-                                            <div class="image">
-                                                <img
-                                                    src="img/thumbs/1-1.jpg"
-                                                    alt=""
-                                                />
-                                                <div
-                                                    class="main"
-                                                    data-img-url="img/portfolio/4.jpg"
-                                                ></div>
-                                            </div>
-                                            <div class="overlay"></div>
-                                            <div class="details">
-                                                <h3>New Telephone</h3>
-                                                <span>Image</span>
-                                            </div>
-                                            <a
-                                                class="ryker_tm_full_link zoom"
-                                                href="img/portfolio/4.jpg"
-                                            ></a>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="ryker_tm_section">
-                <div class="ryker_tm_video">
-                    <div class="background">
-                        <div
-                            class="image jarallax"
-                            data-speed="0"
-                            data-img-url="img/hero/1.jpg"
-                        ></div>
-                        <div class="overlay"></div>
-                    </div>
-                    <div class="content">
-                        <div class="container">
-                            <div class="content_inner">
-                                <span class="rounded"
-                                    ><a
-                                        class="popup-youtube"
-                                        href="https://www.youtube.com/watch?v=ICr_bOuM9Zo"
-                                    ></a
-                                ></span>
-                                <h3
-                                    class="text wow fadeInUp"
-                                    data-wow-duration="1.5s"
-                                >
-                                    I am delivering beautiful digital products
-                                    for my clients
-                                </h3>
-                                <div
-                                    class="ryker_tm_button wow fadeInUp"
-                                    data-wow-duration="1.5s"
-                                    data-wow-delay="0.2s"
-                                >
-                                    <a
-                                        class="popup-youtube"
-                                        href="https://www.youtube.com/watch?v=ICr_bOuM9Zo"
-                                        >Watch Video</a
-                                    >
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="ryker_tm_section">
-                <div class="ryker_tm_testimonials">
-                    <div id="grouploop">
-                        <div class="item-wrap">
-                            <div class="item"><span>Testimonials</span></div>
-                            <div class="item"><span>Testimonials</span></div>
-                            <div class="item"><span>Testimonials</span></div>
-                            <div class="item"><span>Testimonials</span></div>
-                            <div class="item"><span>Testimonials</span></div>
-                            <div class="item"><span>Testimonials</span></div>
-                            <div class="item"><span>Testimonials</span></div>
-                            <div class="item"><span>Testimonials</span></div>
-                            <div class="item"><span>Testimonials</span></div>
-                            <div class="item"><span>Testimonials</span></div>
-                            <div class="item"><span>Testimonials</span></div>
-                            <div class="item"><span>Testimonials</span></div>
-                            <div class="item"><span>Testimonials</span></div>
-                            <div class="item"><span>Testimonials</span></div>
-                            <div class="item"><span>Testimonials</span></div>
-                            <div class="item"><span>Testimonials</span></div>
-                        </div>
-                    </div>
-                    <div class="container">
-                        <div class="testimonials_list">
-                            <div class="wrapper owl-carousel">
-                                <div class="wr_in item">
-                                    <div class="list_inner">
-                                        <ul class="stars">
-                                            <li>
-                                                <img
-                                                    class="svg"
-                                                    src="img/svg/star.svg"
-                                                    alt=""
-                                                />
-                                            </li>
-                                            <li>
-                                                <img
-                                                    class="svg"
-                                                    src="img/svg/star.svg"
-                                                    alt=""
-                                                />
-                                            </li>
-                                            <li>
-                                                <img
-                                                    class="svg"
-                                                    src="img/svg/star.svg"
-                                                    alt=""
-                                                />
-                                            </li>
-                                            <li>
-                                                <img
-                                                    class="svg"
-                                                    src="img/svg/star.svg"
-                                                    alt=""
-                                                />
-                                            </li>
-                                            <li>
-                                                <img
-                                                    class="svg"
-                                                    src="img/svg/star.svg"
-                                                    alt=""
-                                                />
-                                            </li>
-                                        </ul>
-                                        <div class="text">
-                                            <p>
-                                                I rarely like to write reviews,
-                                                but the developer truly deserve
-                                                a standing ovation for their
-                                                customer support, customisation
-                                                and most importantly,
-                                                friendliness and
-                                                professionalism. Very
-                                                satisfying!!!
-                                            </p>
-                                        </div>
-                                        <div class="details">
-                                            <h3 class="author">
-                                                <span>Albert Einstein</span>
-                                            </h3>
-                                            <h3 class="job">
-                                                <span>Freelancer</span>
-                                            </h3>
-                                        </div>
-                                        <div class="avatar">
-                                            <div
-                                                class="image"
-                                                data-img-url="img/about/2.jpg"
-                                            ></div>
-                                        </div>
-                                        <img
-                                            class="svg myquote"
-                                            src="img/svg/quote.svg"
-                                            alt=""
-                                        />
-                                    </div>
-                                </div>
-                                <div class="wr_in item">
-                                    <div class="list_inner">
-                                        <ul class="stars">
-                                            <li>
-                                                <img
-                                                    class="svg"
-                                                    src="img/svg/star.svg"
-                                                    alt=""
-                                                />
-                                            </li>
-                                            <li>
-                                                <img
-                                                    class="svg"
-                                                    src="img/svg/star.svg"
-                                                    alt=""
-                                                />
-                                            </li>
-                                            <li>
-                                                <img
-                                                    class="svg"
-                                                    src="img/svg/star.svg"
-                                                    alt=""
-                                                />
-                                            </li>
-                                            <li>
-                                                <img
-                                                    class="svg"
-                                                    src="img/svg/star.svg"
-                                                    alt=""
-                                                />
-                                            </li>
-                                            <li>
-                                                <img
-                                                    class="svg"
-                                                    src="img/svg/star.svg"
-                                                    alt=""
-                                                />
-                                            </li>
-                                        </ul>
-                                        <div class="text">
-                                            <p>
-                                                The quality of the design is
-                                                very high, and with a bit of
-                                                knowledge about HTML and CSS
-                                                also very easy to customize.
-                                                Overall a good design, that I am
-                                                quite happy with. Really
-                                                appreciate that.
-                                            </p>
-                                        </div>
-                                        <div class="details">
-                                            <h3 class="author">
-                                                <span>Avon Smith</span>
-                                            </h3>
-                                            <h3 class="job">
-                                                <span>Designer</span>
-                                            </h3>
-                                        </div>
-                                        <div class="avatar">
-                                            <div
-                                                class="image"
-                                                data-img-url="img/about/1.jpg"
-                                            ></div>
-                                        </div>
-                                        <img
-                                            class="svg myquote"
-                                            src="img/svg/quote.svg"
-                                            alt=""
-                                        />
-                                    </div>
-                                </div>
-                                <div class="wr_in item">
-                                    <div class="list_inner">
-                                        <ul class="stars">
-                                            <li>
-                                                <img
-                                                    class="svg"
-                                                    src="img/svg/star.svg"
-                                                    alt=""
-                                                />
-                                            </li>
-                                            <li>
-                                                <img
-                                                    class="svg"
-                                                    src="img/svg/star.svg"
-                                                    alt=""
-                                                />
-                                            </li>
-                                            <li>
-                                                <img
-                                                    class="svg"
-                                                    src="img/svg/star.svg"
-                                                    alt=""
-                                                />
-                                            </li>
-                                            <li>
-                                                <img
-                                                    class="svg"
-                                                    src="img/svg/star.svg"
-                                                    alt=""
-                                                />
-                                            </li>
-                                            <li>
-                                                <img
-                                                    class="svg"
-                                                    src="img/svg/star.svg"
-                                                    alt=""
-                                                />
-                                            </li>
-                                        </ul>
-                                        <div class="text">
-                                            <p>
-                                                I had a problem finding
-                                                something, asked the support
-                                                team, got a reply and a solution
-                                                within a few minutes. Brilliant
-                                                support! very happy with the
-                                                website I bought. Thank you
-                                                developers!!
-                                            </p>
-                                        </div>
-                                        <div class="details">
-                                            <h3 class="author">
-                                                <span>Bruce Kennedy</span>
-                                            </h3>
-                                            <h3 class="job">
-                                                <span>Photographer</span>
-                                            </h3>
-                                        </div>
-                                        <div class="avatar">
-                                            <div
-                                                class="image"
-                                                data-img-url="img/about/3.jpg"
-                                            ></div>
-                                        </div>
-                                        <img
-                                            class="svg myquote"
-                                            src="img/svg/quote.svg"
-                                            alt=""
-                                        />
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="ryker_tm_section" id="news">
-                <div class="ryker_tm_news">
-                    <div class="container">
-                        <div class="ryker_tm_title">
-                            <span>News</span>
-                            <h3>
-                                Check out the latest breaking news headlines on
-                                development
-                            </h3>
-                        </div>
-                        <div class="news_list">
-                            <ul>
-                                <li
-                                    class="wow fadeInUp"
-                                    data-wow-duration="1.5s"
-                                >
-                                    <div class="list_inner">
-                                        <div class="image">
-                                            <img
-                                                src="img/thumbs/4-3.jpg"
-                                                alt=""
-                                            />
-                                            <div
-                                                class="main"
-                                                data-img-url="img/news/1.jpg"
-                                            ></div>
-                                            <a
-                                                class="ryker_tm_full_link"
-                                                href="#"
-                                            ></a>
-                                        </div>
-                                        <div class="details">
-                                            <span
-                                                >August 15, 2021
-                                                <a href="#">Branding</a></span
-                                            >
-                                            <h3 class="title">
-                                                <a href="#">Good Travel</a>
-                                            </h3>
-                                        </div>
-                                        <div class="hide_content">
-                                            <div class="descriptions">
-                                                <p class="bigger">
-                                                    Just because we can't get
-                                                    out and about like we
-                                                    normally would, doesn’t mean
-                                                    we have to stop taking
-                                                    pictures. There’s still
-                                                    plenty you can do, provided
-                                                    you're prepared to use some
-                                                    imagination. Here are a few
-                                                    ideas to keep you shooting
-                                                    until normal life resumes.
-                                                </p>
-                                                <p>
-                                                    Most photographers love to
-                                                    shoot the unusual, and you
-                                                    don’t get much more unusual
-                                                    than These Unprecedented
-                                                    Times. Right now everything
-                                                    counts as out of the
-                                                    ordinary. There are a number
-                                                    of remarkable things about
-                                                    these lockdown days that are
-                                                    worth photographing now so
-                                                    we can remember them when it
-                                                    is all over.
-                                                </p>
-                                                <p>
-                                                    Streets empty that are
-                                                    usually busy are remarkable
-                                                    and can evoke the sense of
-                                                    historical pictures from
-                                                    before the invention of the
-                                                    motorcar. Other things that
-                                                    are different at the moment
-                                                    will be queues to get into
-                                                    stores and the lines marked
-                                                    out on the floor to show how
-                                                    far apart we should be.
-                                                </p>
-                                                <div class="quotebox">
-                                                    <p>
-                                                        Most photographers find
-                                                        it hard to see
-                                                        interesting pictures in
-                                                        places in which they are
-                                                        most familiar. A trip
-                                                        somewhere new seems
-                                                        always exactly what our
-                                                        photography needed, as
-                                                        shooting away from home
-                                                        consistently inspires us
-                                                        to new artistic heights.
-                                                    </p>
-                                                </div>
-                                                <p>
-                                                    Pretend everything is new
-                                                    and that you haven’t seen it
-                                                    before, and then you will be
-                                                    free to notice the leading
-                                                    lines, the places where one
-                                                    edge meets another in
-                                                    delightful geometric
-                                                    harmony, and how the
-                                                    ordinary things in the
-                                                    kitchen are transformed when
-                                                    the light is on or off.
-                                                </p>
-                                                <p>
-                                                    The trick here is to look
-                                                    slowly, and then look again.
-                                                    Take the time to look in
-                                                    detail and to look at the
-                                                    same thing from different
-                                                    angles, with different
-                                                    light, long lenses and wide
-                                                    lenses. Then move to the
-                                                    left a bit. You may never
-                                                    feel the need to leave the
-                                                    house again.
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li
-                                    class="wow fadeInUp"
-                                    data-wow-duration="1.5s"
-                                    data-wow-delay="0.2s"
-                                >
-                                    <div class="list_inner">
-                                        <div class="image">
-                                            <img
-                                                src="img/thumbs/4-3.jpg"
-                                                alt=""
-                                            />
-                                            <div
-                                                class="main"
-                                                data-img-url="img/news/2.jpg"
-                                            ></div>
-                                            <a
-                                                class="ryker_tm_full_link"
-                                                href="#"
-                                            ></a>
-                                        </div>
-                                        <div class="details">
-                                            <span
-                                                >July 25, 2021
-                                                <a href="#">Design</a></span
-                                            >
-                                            <h3 class="title">
-                                                <a href="#"
-                                                    >National Geographic</a
-                                                >
-                                            </h3>
-                                        </div>
-                                        <div class="hide_content">
-                                            <div class="descriptions">
-                                                <p class="bigger">
-                                                    Just because we can't get
-                                                    out and about like we
-                                                    normally would, doesn’t mean
-                                                    we have to stop taking
-                                                    pictures. There’s still
-                                                    plenty you can do, provided
-                                                    you're prepared to use some
-                                                    imagination. Here are a few
-                                                    ideas to keep you shooting
-                                                    until normal life resumes.
-                                                </p>
-                                                <p>
-                                                    Most photographers love to
-                                                    shoot the unusual, and you
-                                                    don’t get much more unusual
-                                                    than These Unprecedented
-                                                    Times. Right now everything
-                                                    counts as out of the
-                                                    ordinary. There are a number
-                                                    of remarkable things about
-                                                    these lockdown days that are
-                                                    worth photographing now so
-                                                    we can remember them when it
-                                                    is all over.
-                                                </p>
-                                                <p>
-                                                    Streets empty that are
-                                                    usually busy are remarkable
-                                                    and can evoke the sense of
-                                                    historical pictures from
-                                                    before the invention of the
-                                                    motorcar. Other things that
-                                                    are different at the moment
-                                                    will be queues to get into
-                                                    stores and the lines marked
-                                                    out on the floor to show how
-                                                    far apart we should be.
-                                                </p>
-                                                <div class="quotebox">
-                                                    <p>
-                                                        Most photographers find
-                                                        it hard to see
-                                                        interesting pictures in
-                                                        places in which they are
-                                                        most familiar. A trip
-                                                        somewhere new seems
-                                                        always exactly what our
-                                                        photography needed, as
-                                                        shooting away from home
-                                                        consistently inspires us
-                                                        to new artistic heights.
-                                                    </p>
-                                                </div>
-                                                <p>
-                                                    Pretend everything is new
-                                                    and that you haven’t seen it
-                                                    before, and then you will be
-                                                    free to notice the leading
-                                                    lines, the places where one
-                                                    edge meets another in
-                                                    delightful geometric
-                                                    harmony, and how the
-                                                    ordinary things in the
-                                                    kitchen are transformed when
-                                                    the light is on or off.
-                                                </p>
-                                                <p>
-                                                    The trick here is to look
-                                                    slowly, and then look again.
-                                                    Take the time to look in
-                                                    detail and to look at the
-                                                    same thing from different
-                                                    angles, with different
-                                                    light, long lenses and wide
-                                                    lenses. Then move to the
-                                                    left a bit. You may never
-                                                    feel the need to leave the
-                                                    house again.
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li
-                                    class="wow fadeInUp"
-                                    data-wow-duration="1.5s"
-                                    data-wow-delay="0.4s"
-                                >
-                                    <div class="list_inner">
-                                        <div class="image">
-                                            <img
-                                                src="img/thumbs/4-3.jpg"
-                                                alt=""
-                                            />
-                                            <div
-                                                class="main"
-                                                data-img-url="img/news/3.jpg"
-                                            ></div>
-                                            <a
-                                                class="ryker_tm_full_link"
-                                                href="#"
-                                            ></a>
-                                        </div>
-                                        <div class="details">
-                                            <span
-                                                >June 02, 2021
-                                                <a href="#">Nature</a></span
-                                            >
-                                            <h3 class="title">
-                                                <a href="#">Famous Lake</a>
-                                            </h3>
-                                        </div>
-                                        <div class="hide_content">
-                                            <div class="descriptions">
-                                                <p class="bigger">
-                                                    Just because we can't get
-                                                    out and about like we
-                                                    normally would, doesn’t mean
-                                                    we have to stop taking
-                                                    pictures. There’s still
-                                                    plenty you can do, provided
-                                                    you're prepared to use some
-                                                    imagination. Here are a few
-                                                    ideas to keep you shooting
-                                                    until normal life resumes.
-                                                </p>
-                                                <p>
-                                                    Most photographers love to
-                                                    shoot the unusual, and you
-                                                    don’t get much more unusual
-                                                    than These Unprecedented
-                                                    Times. Right now everything
-                                                    counts as out of the
-                                                    ordinary. There are a number
-                                                    of remarkable things about
-                                                    these lockdown days that are
-                                                    worth photographing now so
-                                                    we can remember them when it
-                                                    is all over.
-                                                </p>
-                                                <p>
-                                                    Streets empty that are
-                                                    usually busy are remarkable
-                                                    and can evoke the sense of
-                                                    historical pictures from
-                                                    before the invention of the
-                                                    motorcar. Other things that
-                                                    are different at the moment
-                                                    will be queues to get into
-                                                    stores and the lines marked
-                                                    out on the floor to show how
-                                                    far apart we should be.
-                                                </p>
-                                                <div class="quotebox">
-                                                    <p>
-                                                        Most photographers find
-                                                        it hard to see
-                                                        interesting pictures in
-                                                        places in which they are
-                                                        most familiar. A trip
-                                                        somewhere new seems
-                                                        always exactly what our
-                                                        photography needed, as
-                                                        shooting away from home
-                                                        consistently inspires us
-                                                        to new artistic heights.
-                                                    </p>
-                                                </div>
-                                                <p>
-                                                    Pretend everything is new
-                                                    and that you haven’t seen it
-                                                    before, and then you will be
-                                                    free to notice the leading
-                                                    lines, the places where one
-                                                    edge meets another in
-                                                    delightful geometric
-                                                    harmony, and how the
-                                                    ordinary things in the
-                                                    kitchen are transformed when
-                                                    the light is on or off.
-                                                </p>
-                                                <p>
-                                                    The trick here is to look
-                                                    slowly, and then look again.
-                                                    Take the time to look in
-                                                    detail and to look at the
-                                                    same thing from different
-                                                    angles, with different
-                                                    light, long lenses and wide
-                                                    lenses. Then move to the
-                                                    left a bit. You may never
-                                                    feel the need to leave the
-                                                    house again.
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="ryker_tm_section" id="contact">
-                <div class="ryker_tm_contact">
-                    <div class="container">
-                        <div class="ryker_tm_title">
-                            <span>Contact</span>
-                            <h3>
-                                Feel free to contact me if any assistance is
-                                needed in the future
-                            </h3>
-                        </div>
-                        <div
-                            class="short_info wow fadeInUp"
-                            data-wow-duration="1.5s"
-                        >
-                            <ul>
-                                <li>
-                                    <div class="list_inner">
-                                        <div class="logo">
-                                            <img
-                                                class="svg"
-                                                src="img/svg/location-2.svg"
-                                                alt=""
-                                            />
-                                        </div>
-                                        <div class="info">
-                                            <h3>Location</h3>
-                                            <span>123 Ave street, USA</span>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="list_inner">
-                                        <div class="logo">
-                                            <img
-                                                class="svg"
-                                                src="img/svg/telephone-2.svg"
-                                                alt=""
-                                            />
-                                        </div>
-                                        <div class="info">
-                                            <h3>Phone</h3>
-                                            <span>+77 022 155 02 02</span>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="list_inner">
-                                        <div class="logo">
-                                            <img
-                                                class="svg"
-                                                src="img/svg/email-2.svg"
-                                                alt=""
-                                            />
-                                        </div>
-                                        <div class="info">
-                                            <h3>Mail</h3>
-                                            <span
-                                                ><a
-                                                    href="/cdn-cgi/l/email-protection"
-                                                    class="__cf_email__"
-                                                    data-cfemail="2b5952404e596b4c464a424705484446"
-                                                    >[email&#160;protected]</a
-                                                ></span
-                                            >
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="wrapper">
-                            <div
-                                class="left wow fadeInUp"
-                                data-wow-duration="1.5s"
-                            >
-                                <div class="fields">
-                                    <form
-                                        action="/"
-                                        method="post"
-                                        class="contact_form"
-                                        id="contact_form"
-                                    >
-                                        <div
-                                            class="returnmessage"
-                                            data-success="Your message has been received, We will contact you soon."
-                                        ></div>
-                                        <div class="empty_notice">
-                                            <span
-                                                >Please Fill Required
-                                                Fields</span
-                                            >
-                                        </div>
-                                        <div class="first">
-                                            <ul>
-                                                <li>
-                                                    <input
-                                                        id="name"
-                                                        type="text"
-                                                        placeholder="Name"
-                                                        autocomplete="off"
-                                                    />
-                                                </li>
-                                                <li>
-                                                    <input
-                                                        id="email"
-                                                        type="text"
-                                                        placeholder="Email"
-                                                        autocomplete="off"
-                                                    />
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="last">
-                                            <textarea
-                                                id="message"
-                                                placeholder="Message"
-                                            ></textarea>
-                                        </div>
-                                        <div
-                                            class="ryker_tm_button"
-                                            data-color="dark"
-                                        >
-                                            <a id="send_message" href="#"
-                                                >Send Message</a
-                                            >
-                                        </div>
-                                    </form>
-                                </div>
-                            </div>
-                            <div
-                                class="right wow fadeInUp"
-                                data-wow-duration="1.5s"
-                                data-wow-delay="0.2s"
-                            >
-                                <div class="map_wrap">
-                                    <div class="map" id="ieatmaps"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="ryker_tm_section">
-                <div class="ryker_tm_copyright">
-                    <div class="container">
-                        <div class="copyright_inner">
-                            <div
-                                class="text wow fadeInLeft"
-                                data-wow-duration="1.5s"
-                            >
-                                <p>
-                                    Copyright &copy; 2021. All rights are
-                                    reserved
-                                </p>
-                            </div>
-                            <div
-                                class="social wow fadeInRight"
-                                data-wow-duration="1.5s"
-                            >
-                                <ul>
-                                    <li>
-                                        <a href="#"
-                                            ><img
-                                                class="svg"
-                                                src="img/svg/social/facebook.svg"
-                                                alt=""
-                                        /></a>
-                                    </li>
-                                    <li>
-                                        <a href="#"
-                                            ><img
-                                                class="svg"
-                                                src="img/svg/social/twitter.svg"
-                                                alt=""
-                                        /></a>
-                                    </li>
-                                    <li>
-                                        <a href="#"
-                                            ><img
-                                                class="svg"
-                                                src="img/svg/social/instagram.svg"
-                                                alt=""
-                                        /></a>
-                                    </li>
-                                    <li>
-                                        <a href="#"
-                                            ><img
-                                                class="svg"
-                                                src="img/svg/social/dribbble.svg"
-                                                alt=""
-                                        /></a>
-                                    </li>
-                                    <li>
-                                        <a href="#"
-                                            ><img
-                                                class="svg"
-                                                src="img/svg/social/tik-tok.svg"
-                                                alt=""
-                                        /></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <audio id="audio1"><source src="audio/1.mp3" /></audio>
-            <audio id="audio2"><source src="audio/2.mp3" /></audio>
-
-            <div class="mouse-cursor cursor-outer"></div>
-            <div class="mouse-cursor cursor-inner"></div>
-        </div>
-
-        <script
-            data-cfasync="false"
-            src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"
-        ></script>
-        <script src="js/jquery.js"></script>
-        <!--[if lt IE 10]>
-            <script type="text/javascript" src="js/ie8.js"></script>
-        <![endif]-->
-        <script src="js/plugins.js"></script>
-        <script src="js/init.js"></script>
-        <script
-            async
-            defer
-            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA5bpEs3xlB8vhxNFErwoo3MXR64uavf6Y&callback=initMap"
-        ></script>
-
-        <script type="text/javascript">
-            var Tawk_API = Tawk_API || {},
-                Tawk_LoadStart = new Date();
-            (function () {
-                var s1 = document.createElement("script"),
-                    s0 = document.getElementsByTagName("script")[0];
-                s1.async = true;
-                s1.src =
-                    "https://embed.tawk.to/6186434f6bb0760a49416417/1fjq7ds9c";
-                s1.charset = "UTF-8";
-                s1.setAttribute("crossorigin", "*");
-                s0.parentNode.insertBefore(s1, s0);
-            })();
-        </script>
-    </body>
 </html>
