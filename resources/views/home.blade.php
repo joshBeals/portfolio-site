@@ -62,7 +62,8 @@
                             </h1>
                             <p class="text-uppercase">Joshua <span class="orange"
                                     style="padding-left: 5px;">Alele-Beals</span></p>
-                            <button class="btn btn-primary btn-sm cv">Download CV</button>
+                            <button class="btn btn-primary btn-sm cv"><a href="pdf/josh.pdf"
+                                    download="Joshua Alele-Beals CV">Download CV</a></button>
                         </div>
                     </div>
                 </div>

@@ -476,8 +476,14 @@ a:hover, a:focus, a.active {
 .tech-sec {
   overflow: hidden;
   padding: 50px 0;
-  background: #ef4836;
+  background: #c0bab9;
   color: #fff;
+}
+
+.tech-sec img{
+  width: 50px; 
+  margin: 10px 0px; 
+  cursor: pointer;
 }
 
 .about-sec:hover .heading:after {
