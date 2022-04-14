@@ -31,23 +31,31 @@
 .badge-primary{
   background-color: #337ab7;
 }
+
 .badge-warning{
   background-color: #f0ad4e;
 }
+
 .badge-secondary{
   background-color: #ef4836;
 }
+
 .badge-success{
   background-color: #5cb85c;
 }
+
 .badge-danger{
   background-color: #d43f3a;
-}.badge-info{
+}
+
+.badge-info{
   background-color: #31b0d5;
 }
+
 .cv{
   transition: 200ms ease-in-out;
 }
+
 .cv:hover{
   background-color: #d43f3a;
   color: white;
