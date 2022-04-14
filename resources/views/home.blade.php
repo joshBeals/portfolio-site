@@ -61,109 +61,22 @@
                                     Engineer</span>
                             </h1>
                             <p class="text-uppercase">Joshua <span class="orange"
-                                    style="padding-left: 5px;">Alele-Beals</span></pp>
+                                    style="padding-left: 5px;">Alele-Beals</span></p>
+                            <button class="btn btn-primary btn-sm cv">Download CV</button>
                         </div>
                     </div>
                 </div>
             </section>
-            <!-- About sec of the page -->
-            <section id="about" class="about-sec">
-                <div class="container">
-                    <div class="row">
-                        <!-- Personal information of the author -->
-                        <div class="col-xs-12 col-sm-7 info-detail">
-                            <h2 class="heading text-uppercase" data-heading="">What I do?</h2>
-                            <p>I'm a frontend focused fullstack developer passionate about React (Native), Hooks &
-                                GraphQL. I'm also author of the Mey package and the Uwadie plugin
-                                When i'm not coding or writing blog posts, i'm usually thrashing out licks on guitar a
-                                la Stevie Ray Vaughan or on Twitter or you could catch me on Youtube watching every and
-                                anything from videos on the world war to The Weeknd live.</p>
-                            <ul class="list-unstyled info-list text-capitalize">
-                                <li>Name: Joshua Alele-Beals</li>
-                                <li>Birthday: 22nd April, 2000</li>
-                                <li>Country: Lagos, Nigeria</li>
-                                <li>Language: English, Kalabari</li>
-                            </ul>
-                        </div>
-                        <!-- Author of the page -->
-                        <div class="col-xs-12 col-sm-4 col-md-offset-1">
-                            <div class="author-img">
-                                <img src="images/josh/img1.jpeg" class="img-responsive" alt="author image">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section id="tech" class="tech-sec">
-                <div class="container">
-                    <p>I'm a frontend focused fullstack developer passionate about React (Native), Hooks &
-                        GraphQL. I'm also author of the Mey package and the Uwadie plugin
-                        When i'm not coding or writing blog posts, i'm usually thrashing out licks on guitar a
-                        la Stevie Ray Vaughan or on Twitter or you could catch me on Youtube watching every and
-                        anything from videos on the world war to The Weeknd live.</p>
-                </div>
-            </section>
-            <!-- Work sec of the page -->
-            <section id="works" class="work-sec">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xs-12">
-                            <h2 class="heading text-uppercase" data-heading="">awesome works done by me</h2>
-                        </div>
-                        <div class="col-xs-12 col-sm-4">
-                            <!-- Product of the page -->
-                            <figure class="product-img overlay">
-                                <img src="images/img02.jpg" class="img-responsive" alt="bottle image">
-                                <figcaption class="txt-holder text-capitalize">
-                                    <h3><a href="#">Home Made Shot - 03</a></h3>
-                                    <p>Product Photography</p>
-                                    <a href="#" class="icon fas fa-plus"></a>
-                                </figcaption>
-                            </figure>
-                        </div>
-                        <div class="col-xs-12 col-sm-3">
-                            <!-- Product of the page -->
-                            <figure class="product-img overlay mar">
-                                <img src="images/img03.jpg" class="img-responsive" alt="cycle image">
-                                <figcaption class="txt-holder small-col text-capitalize">
-                                    <h3><a href="#">Home Made Shot - 03</a></h3>
-                                    <p>Product Photography</p>
-                                    <a href="#" class="icon fas fa-plus"></a>
-                                </figcaption>
-                            </figure>
-                            <!-- Product of the page -->
-                            <figure class="product-img overlay">
-                                <img src="images/img05.jpg" class="img-responsive" alt="cycle image">
-                                <figcaption class="txt-holder small-col text-capitalize">
-                                    <h3><a href="#">Home Made Shot - 03</a></h3>
-                                    <p>Product Photography</p>
-                                    <a href="#" class="icon fas fa-plus"></a>
-                                </figcaption>
-                            </figure>
-                        </div>
-                        <div class="col-xs-12 col-sm-5">
-                            <!-- Product of the page -->
-                            <figure class="product-img overlay">
-                                <img src="images/img04.jpg" class="img-responsive" alt="cycle image">
-                                <figcaption class="txt-holder text-capitalize">
-                                    <h3><a href="#">Home Made Shot - 03</a></h3>
-                                    <p>Product Photography</p>
-                                    <a href="#" class="icon fas fa-plus"></a>
-                                </figcaption>
-                            </figure>
-                            <!-- Product of the page -->
-                            <figure class="product-img overlay">
-                                <img src="images/img06.jpg" class="img-responsive" alt="cycle image">
-                                <figcaption class="txt-holder text-capitalize">
-                                    <h3><a href="#">Home Made Shot - 03</a></h3>
-                                    <p>Product Photography</p>
-                                    <a href="#" class="icon fas fa-plus"></a>
-                                </figcaption>
-                            </figure>
-                        </div>
-                    </div>
-                </div>
-            </section>
+
+            <!-- About Section -->
+            @include('partials.about')
+
+            <!-- Tech Skills Section -->
+            @include('partials.tech')
+
+            <!-- Works Section -->
+            @include('partials.works')
+
             <!-- Skills sec of the page -->
             <section id="skills" class="skill-sec">
                 <div class="container">
