@@ -35,15 +35,18 @@
                 <img data-toggle="tooltip" data-placement="top" title="Express" src="images/svg/express.svg"
                     alt="express">
             </div>
-            <div class="col-xs-3 col-sm-3 col-md-1">
+            <!-- <div class="col-xs-3 col-sm-3 col-md-1">
                 <img data-toggle="tooltip" data-placement="top" title="MongoDB" src="images/svg/mongo.svg" alt="mongo">
-            </div>
+            </div> -->
             <div class="col-xs-3 col-sm-3 col-md-1">
                 <img data-toggle="tooltip" data-placement="top" title="PHP" src="images/svg/php.svg" alt="php">
             </div>
             <div class="col-xs-3 col-sm-3 col-md-1">
                 <img data-toggle="tooltip" data-placement="top" title="Laravel" src="images/svg/laravel.svg"
                     alt="laravel">
+            </div>
+            <div class="col-xs-3 col-sm-3 col-md-1">
+                <img data-toggle="tooltip" data-placement="top" title="PWA" src="images/svg/pwa.svg" alt="PWA">
             </div>
         </div>
     </div>

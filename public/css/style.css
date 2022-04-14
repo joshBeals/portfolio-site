@@ -73,14 +73,14 @@ body {
 
 @font-face {
   font-family: 'proxima_novaregular';
-  src: url("fonts/proximanova-regular.woff2") format("woff2"), url("fonts/proximanova-regular.woff") format("woff");
+  src: url("../fonts/proximanova-regular.woff2") format("woff2"), url("../fonts/proximanova-regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'uni_sansheavy_caps';
-  src: url("fonts/uni_sans_heavy-webfont.woff2") format("woff2"), url("fonts/uni_sans_heavy-webfont.woff") format("woff");
+  src: url("../fonts/uni_sans_heavy-webfont.woff2") format("woff2"), url("../fonts/uni_sans_heavy-webfont.woff") format("woff");
   font-weight: 900;
   font-style: normal;
 }
@@ -476,7 +476,7 @@ a:hover, a:focus, a.active {
 .tech-sec {
   overflow: hidden;
   padding: 50px 0;
-  background: #c0bab9;
+  background: rgba(239, 72, 54, .05);
   color: #fff;
 }
 
@@ -770,7 +770,8 @@ a:hover, a:focus, a.active {
 .testimonial-sec .client-feedback .slide {
   overflow: hidden;
   color: #d0d0d0;
-  padding: 41px 0 0 68px;
+  padding: 0px 0 0 68px;
+  /* padding: 41px 0 0 68px; */
   border-left: none;
   font-size: 16px;
   line-height: 30px;
@@ -863,8 +864,8 @@ a:hover, a:focus, a.active {
 }
 
 .contact-sec .contact-holder {
-  padding: 0 0 0 60px;
-  margin: 0 0 71px;
+  /* padding: 0 0 0 60px; */
+  /* margin: 0 0 71px; */
 }
 
 .contact-sec .heading {

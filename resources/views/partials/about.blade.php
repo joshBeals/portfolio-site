@@ -8,7 +8,7 @@
                 <p>I'm a result oriented fullstack developer passionate about React, NodeJS, PHP, Laravel, GraphQL and
                     most importantly Progressive Web Applications (PWA's). I have experience in building and deploying
                     scalable applications
-                    from ground up. <br> Bagged a First class honours in Computer Science from Bowen university. </p>
+                    from ground up. <br> Bagged a First class honours in Computer Science from Bowen University. </p>
                 <h4 class="text-uppercase">Hobbies</h4>
                 <div>
                     <span class="badge badge-primary">Playing the Piano</span>
@@ -16,7 +16,7 @@
                 </div>
                 <div style="margin-top: 10px; margin-bottom: 20px;">
                     <span class="badge badge-secondary">Travelling</span>
-                    <span class="badge badge-success">Watching Football</span>
+                    <span class="badge badge-info">Watching Football</span>
                 </div>
             </div>
             <!-- Author of the page -->
