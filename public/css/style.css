@@ -473,6 +473,13 @@ a:hover, a:focus, a.active {
   background: #fff;
 }
 
+.tech-sec {
+  overflow: hidden;
+  padding: 50px 0;
+  background: #ef4836;
+  color: #fff;
+}
+
 .about-sec:hover .heading:after {
   -o-transition-duration: 1.5s;
   transition-duration: 1.5s;
@@ -492,7 +499,7 @@ a:hover, a:focus, a.active {
 }
 
 .about-sec .info-detail {
-  color: #b9b9b9;
+  color: #a19c9c;
   line-height: 36px;
 }
 
@@ -501,7 +508,7 @@ a:hover, a:focus, a.active {
 }
 
 .about-sec .info-list {
-  color: #fff;
+  color: #131313;
   line-height: 20px;
   margin: 0;
 }

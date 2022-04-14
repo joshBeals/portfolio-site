@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Josh Beals - Home</title>
+    <title>Home | Joshua Alele-Beals</title>
     <!-- Include the site stylesheet -->
     <link href="https://fonts.googleapis.com/css?family=Dosis:800" rel="stylesheet">
     <!-- Include the site stylesheet -->
@@ -72,26 +72,35 @@
                     <div class="row">
                         <!-- Personal information of the author -->
                         <div class="col-xs-12 col-sm-7 info-detail">
-                            <h2 class="heading text-uppercase" data-heading="">some text about me</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy <br
-                                    class="hidden-xs hidden-sm">nibh euismod tincidunt ut laoreet dolore magna aliquam
-                                erat volutpat. Ut wisi <br class="hidden-xs hidden-sm">enim ad minim veniam, quis
-                                nostrud exerci tation ullamcorper suscipit lobortis <br class="hidden-xs hidden-sm">nisl
-                                ut aliquip ex ea commodo consequat.</p>
+                            <h2 class="heading text-uppercase" data-heading="">What I do?</h2>
+                            <p>I'm a frontend focused fullstack developer passionate about React (Native), Hooks &
+                                GraphQL. I'm also author of the Mey package and the Uwadie plugin
+                                When i'm not coding or writing blog posts, i'm usually thrashing out licks on guitar a
+                                la Stevie Ray Vaughan or on Twitter or you could catch me on Youtube watching every and
+                                anything from videos on the world war to The Weeknd live.</p>
                             <ul class="list-unstyled info-list text-capitalize">
-                                <li>Name: Martin James</li>
-                                <li>Birthday: 23rd Nov, 1981</li>
-                                <li>Country: UK, London</li>
-                                <li>Language: English, Spanish</li>
+                                <li>Name: Joshua Alele-Beals</li>
+                                <li>Birthday: 22nd April, 2000</li>
+                                <li>Country: Lagos, Nigeria</li>
+                                <li>Language: English, Kalabari</li>
                             </ul>
                         </div>
                         <!-- Author of the page -->
                         <div class="col-xs-12 col-sm-4 col-md-offset-1">
                             <div class="author-img">
-                                <img src="images/img07.jpg" class="img-responsive" alt="author image">
+                                <img src="images/josh/img1.jpeg" class="img-responsive" alt="author image">
                             </div>
                         </div>
                     </div>
+                </div>
+            </section>
+            <section id="tech" class="tech-sec">
+                <div class="container">
+                    <p>I'm a frontend focused fullstack developer passionate about React (Native), Hooks &
+                        GraphQL. I'm also author of the Mey package and the Uwadie plugin
+                        When i'm not coding or writing blog posts, i'm usually thrashing out licks on guitar a
+                        la Stevie Ray Vaughan or on Twitter or you could catch me on Youtube watching every and
+                        anything from videos on the world war to The Weeknd live.</p>
                 </div>
             </section>
             <!-- Work sec of the page -->
