@@ -30,7 +30,7 @@
             <div class="col-xs-12 col-sm-4">
                 <!-- Product of the page -->
                 <figure class="product-img overlay">
-                    <img src="images/projects/qrchef.png" class="img-responsive" alt="bottle image">
+                    <img src="images/projects/qrChef.png" class="img-responsive" alt="bottle image">
                     <figcaption class="txt-holder text-capitalize">
                         <h3><a href="https://qrchef.netlify.app/">QR Chef</a></h3>
                         <a href="https://qrchef.netlify.app/" class="icon fas fa-link"></a>
