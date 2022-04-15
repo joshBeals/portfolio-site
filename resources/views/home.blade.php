@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home | Joshua Alele-Beals</title>
+    <meta name="description" content="Personal Portfolio Site">
     <!-- Include the site stylesheet -->
     <link href="https://fonts.googleapis.com/css?family=Dosis:800" rel="stylesheet">
     <!-- Include the site stylesheet -->
@@ -43,8 +44,7 @@
                 <ul class="list-unstyled text-uppercase">
                     <li><a href="#Welcome">Welcome</a></li>
                     <li><a href="#about">about</a></li>
-                    <li><a href="#works">works</a></li>
-                    <li><a href="#skills">skills</a></li>
+                    <li><a href="#works">projects</a></li>
                     <li><a href="#contact">contact</a></li>
                 </ul>
             </nav>
@@ -89,19 +89,9 @@
         <!-- Footer of the page -->
         <footer id="footer">
             <div class="container">
-                <div class="row">
-                    <div class="col-xs-12 col-sm-6">
-                        <span class="text">© Copyright 2022, Josh Beals. All Rights Reserved</span>
-                    </div>
-                    <div class="col-xs-12 col-sm-6">
-                        <!-- social icons of the page -->
-                        <ul class="list-unstyled social-icons">
-                            <li><a href="#" class="fab fa-facebook-f"></a></li>
-                            <li><a href="#" class="fab fa-twitter"></a></li>
-                            <li><a href="#" class="fab fa-google-plus-g"></a></li>
-                            <li><a href="#" class="fab fa-linkedin-in"></a></li>
-                            <li><a href="#" class="fab fa-pinterest-p"></a></li>
-                        </ul>
+                <div class="row text-center">
+                    <div class="col-xs-12 col-sm-12">
+                        <span class="text">© Copyright 2022 Joshua Alele-Beals</span>
                     </div>
                 </div>
             </div>

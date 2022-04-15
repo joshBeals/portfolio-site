@@ -30,7 +30,7 @@
                     <span class="icon-holder pull-left"><i class="icofont-github"></i></span>
                     <div class="wrap">
                         <strong class="title text-uppercase">Github</strong>
-                        <a href="https://github.com/joshBeals">JoshBeals</a>
+                        <a href="https://github.com/joshBeals">joshBeals</a>
                     </div>
                 </li>
             </ul>

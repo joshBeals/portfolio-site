@@ -335,6 +335,17 @@ a:hover, a:focus, a.active {
   background-color: #131313;
 }
 
+.work-content{
+  padding: 10px;
+  background-color: whitesmoke;
+  border-radius: 0px 0px 5px 5px;
+  margin: 0 0 35px;
+}
+
+.work-content p{
+  line-height: 20px;
+}
+
 .work-sec .heading{
   color: #fff;
 }
@@ -355,7 +366,6 @@ a:hover, a:focus, a.active {
 .work-sec .product-img {
   overflow: hidden;
   width: 100%;
-  margin: 0 0 35px;
 }
 
 .work-sec .product-img.overlay:after {
