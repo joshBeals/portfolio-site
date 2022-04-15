@@ -22,7 +22,7 @@
             <!-- Author of the page -->
             <div class="col-xs-12 col-sm-4 col-md-offset-1">
                 <div class="author-img">
-                    <img src="images/josh/img1.jpeg" class="img-responsive" alt="author image">
+                    <img src="images/josh/joshua.jpg" class="img-responsive" alt="Josh Beals">
                 </div>
             </div>
         </div>
